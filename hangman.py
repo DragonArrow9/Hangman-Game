@@ -30,6 +30,7 @@ while True:
 
     if guesses < 1:
         print("You lose.")
+        print("The correct word was: %s" % word)
         break
     
     if unknown_word.count("-") == 0:
