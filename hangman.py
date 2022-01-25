@@ -1,6 +1,6 @@
 import random
 
-word_bank = ["apple", "banana", "carrot"]
+word_bank = ["apple", "banana", "carrot", "orange", "broccoli", "vegetable", "cat", "dog", "science", "mathematics", "coding", "programming"]
 word = random.choice(word_bank)
 unknown_word = []
 guesses = 6
